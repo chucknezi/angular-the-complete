@@ -5,3 +5,17 @@
 <ul>
   <li>TypeScript - A superset of js.</li>
 </ul>
+
+<h3>Section 2: The Basics</h3>
+<ul>
+  <li>Module</li>
+  <li>Components</li>
+  <li>Databinding</li>
+</ul>
+
+<h4>Databinding Explained</h4>
+<p>Databinding = Communication</p>
+<p>TypeScript Code (Business Logic) ==(Output Data)>> Template (HTML) </p>
+
+<p> String Interpolation ({{ data }}) </p>
+<p> Property Binding ([property] = "data") </p>
