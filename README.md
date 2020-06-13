@@ -14,8 +14,4 @@
 </ul>
 
 <h4>Databinding Explained</h4>
-<p>Databinding = Communication</p>
-<p>TypeScript Code (Business Logic) ==(Output Data)>> Template (HTML) </p>
-
-<p> String Interpolation ({{ data }}) </p>
-<p> Property Binding ([property] = "data") </p>
+<img src="assets/dataBindingNotes.png" alt="dBNotes">
