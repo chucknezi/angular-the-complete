@@ -1,0 +1,1 @@
+<app-item-detail [childItem]="parentItem"></app-item-detail>

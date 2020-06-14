@@ -34,15 +34,6 @@
 // assetSnippets/propertyBindingExOne.ts
 
 <img [src]="itemImageUrl">
-
-<!-- Notice the colSpan property is camel case -->
-<tr><td [colSpan]="2">Span 2 columns</td></tr>
-
-<button [disabled]="isUnchanged">Disabled Button</button>
-
-<p [ngClass]="classes">[ngClass] binding to the classes property making this blue</p>
-
-<app-item-detail [childItem]="parentItem"></app-item-detail>
 ```
 
 <p>
@@ -51,18 +42,10 @@ Here's an example of binding to the colSpan property. Notice that it's not colsp
 
 ## Example 2
 ```ts
-//assetSnippets/propertyBindingExOne.ts
-
-<img [src]="itemImageUrl">
+//assetSnippets/propertyBindingExTwo.ts
 
 <!-- Notice the colSpan property is camel case -->
 <tr><td [colSpan]="2">Span 2 columns</td></tr>
-
-<button [disabled]="isUnchanged">Disabled Button</button>
-
-<p [ngClass]="classes">[ngClass] binding to the classes property making this blue</p>
-
-<app-item-detail [childItem]="parentItem"></app-item-detail>
 ```
 <p>
 Another example is disabling a button when the component says that it isUnchanged:
@@ -70,50 +53,24 @@ Another example is disabling a button when the component says that it isUnchange
 
 ## Example 3
 ```ts
-//assetSnippets/propertyBindingExOne.ts
-
-<img [src]="itemImageUrl">
-
-<!-- Notice the colSpan property is camel case -->
-<tr><td [colSpan]="2">Span 2 columns</td></tr>
+//assetSnippets/propertyBindingExThree.ts
 
 <button [disabled]="isUnchanged">Disabled Button</button>
-
-<p [ngClass]="classes">[ngClass] binding to the classes property making this blue</p>
-
-<app-item-detail [childItem]="parentItem"></app-item-detail>
 ```
 <p>Another is setting a property of a directive:</p>
 
 ## Example 4
 ```ts
-//assetSnippets/propertyBindingExOne.ts
-
-<img [src]="itemImageUrl">
-
-<!-- Notice the colSpan property is camel case -->
-<tr><td [colSpan]="2">Span 2 columns</td></tr>
-
-<button [disabled]="isUnchanged">Disabled Button</button>
+//assetSnippets/propertyBindingExFour.ts
 
 <p [ngClass]="classes">[ngClass] binding to the classes property making this blue</p>
 
-<app-item-detail [childItem]="parentItem"></app-item-detail>
 ```
 <p>Yet another is setting the model property of a custom component—a great way for parent and child components to communicate:</p>
 
 ## Example 5
 ```ts
-//assetSnippets/propertyBindingExOne.ts
-
-<img [src]="itemImageUrl">
-
-<!-- Notice the colSpan property is camel case -->
-<tr><td [colSpan]="2">Span 2 columns</td></tr>
-
-<button [disabled]="isUnchanged">Disabled Button</button>
-
-<p [ngClass]="classes">[ngClass] binding to the classes property making this blue</p>
+//assetSnippets/propertyBindingExFive.ts
 
 <app-item-detail [childItem]="parentItem"></app-item-detail>
 ```
