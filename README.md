@@ -1,4 +1,4 @@
-<h1>Learn Angular 8</h1>
+<h1>Angular 9 The Complete Guide</h1>
 <p>A JavaScript Framework for creating Reactive Single Page Applications (SPA).</p>
 
 <h3>Features</h3>
@@ -83,3 +83,7 @@ Another example is disabling a button when the component says that it isUnchange
 
 The MDN (Mozilla Developer Network) offers nice lists of all properties and events of the element you're interested in. Googling for YOUR_ELEMENT properties  or YOUR_ELEMENT events  should yield nice results.
 </section>
+
+
+<h4>Short notes on Direcives</h4>
+<img src="assets/dataBindingNotes.png" alt="dBNotes">
