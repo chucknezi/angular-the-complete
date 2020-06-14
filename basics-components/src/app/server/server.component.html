@@ -1,4 +1,5 @@
-<p>{{ 'Server'}} with ID {{ serverId }} is {{ getServerStatus() }}</p>
+<p [ngStyle]="{backgroundColor: getColor() }">{{ 'Server'}} with ID
+  {{ serverId }} is {{ getServerStatus() }}</p>
 
 <!-- Anything between bracket has to return a string.
   It can be a method that returns a string. -->
