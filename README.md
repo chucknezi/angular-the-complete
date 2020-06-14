@@ -86,4 +86,4 @@ The MDN (Mozilla Developer Network) offers nice lists of all properties and even
 
 
 <h4>Short notes on Direcives</h4>
-<img src="assets/dataBindingNotes.png" alt="dBNotes">
+<img src="assets/directiveNotes.png" alt="dirNotes">
