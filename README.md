@@ -91,6 +91,11 @@ The MDN (Mozilla Developer Network) offers nice lists of all properties and even
 ```ts
 //assetSnippets/propertyBindingVInterpolation.ts
 
+<p><img src="{{itemImageUrl}}"> is the <i>interpolated</i> image.</p>
+<p><img [src]="itemImageUrl"> is the <i>property bound</i> image.</p>
+
+<p><span>"{{interpolationTitle}}" is the <i>interpolated</i> title.</span></p>
+<p>"<span [innerHTML]="propertyTitle"></span>" is the <i>property bound</i> title.</p>
 ```
 
 <h4>Short notes on Direcives</h4>
