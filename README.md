@@ -97,6 +97,14 @@ The MDN (Mozilla Developer Network) offers nice lists of all properties and even
 <p><span>"{{interpolationTitle}}" is the <i>interpolated</i> title.</span></p>
 <p>"<span [innerHTML]="propertyTitle"></span>" is the <i>property bound</i> title.</p>
 ```
+<p>Interpolation is a convenient alternative to property binding in many cases. When rendering data values as strings, there is no technical reason to prefer one form to the other, though readability tends to favor interpolation. However, when setting an element property to a non-string data value, you must use property binding.</p>
+
+<h3>Event binding (event)</h3>
+<p>Event binding allows you to listen for certain events such as keystrokes, mouse movements, clicks, and touches.</p>
+
+<img src="assets/eventBindingEx.svg" alt="eventBindingEx">
+
+<p>Angular event binding syntax consists of a <strong>target</strong> event name within parentheses on the left of an equal sign, and a quoted template statement on the right. The following event binding listens for the button's click events, calling the component's onSave() method whenever a click occurs:</p>
 
 <h4>Short notes on Direcives</h4>
 <img src="assets/directiveNotes.png" alt="dirNotes">
