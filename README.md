@@ -106,5 +106,27 @@ The MDN (Mozilla Developer Network) offers nice lists of all properties and even
 
 <p>Angular event binding syntax consists of a <strong>target</strong> event name within parentheses on the left of an equal sign, and a quoted template statement on the right. The following event binding listens for the button's click events, calling the component's onSave() method whenever a click occurs:</p>
 
+<h3>$event and event handling statements</h3>
+
+<p>In an event binding, Angular sets up an event handler for the target event.
+
+When the event is raised, the handler executes the template statement. The template statement typically involves a receiver, which performs an action in response to the event, such as storing a value from the HTML control into a model.
+
+The binding conveys information about the event. This information can include data values such as an event object, string, or number named $event.</p>
+
+<p>The target event determines the shape of the $event object. If the target event is a native DOM element event, then $event is a DOM event object, with properties such as target and target.value.</p>
+
+<p>Consider this example:</p>
+
+## Event handling statements
+
+```ts
+//assetSnippets/$eventExample.ts
+
+<input [value]="currentItem.name"
+       (input)="currentItem.name=$event.target.value" >
+without NgModel
+```
+
 <h4>Short notes on Direcives</h4>
 <img src="assets/directiveNotes.png" alt="dirNotes">
