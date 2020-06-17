@@ -84,6 +84,14 @@ Another example is disabling a button when the component says that it isUnchange
 The MDN (Mozilla Developer Network) offers nice lists of all properties and events of the element you're interested in. Googling for YOUR_ELEMENT properties  or YOUR_ELEMENT events  should yield nice results.
 </section>
 
+<h3>String Interpolation vs. Property Binding</h3>
+<p>You often have a choice between interpolation and property binding. The following binding pairs do the same thing:</p>
+
+## Property Binding vs. Interpolation
+```ts
+//assetSnippets/propertyBindingVInterpolation.ts
+
+```
 
 <h4>Short notes on Direcives</h4>
 <img src="assets/directiveNotes.png" alt="dirNotes">
